@@ -147,7 +147,6 @@
         <div class="setup-artifacts-cell"></div>
       </div>
     </div>
-
     <div class="setup-footer">
       <div class="setup-similar hidden">
 
@@ -160,7 +159,7 @@
     </div>
   </form>
 </div>
-
+<!-- <canvas id="canvas" style="border: solid red">dddd</canvas> -->
 <footer>
   <p><a href="http://htmlacademy.ru" class="footer-link"><img src="img/htmlacademy-logo.png" alt="HTML Academy"
                                                               width="130">Сделано в HTML Academy</a>в 2017 году</p>
@@ -181,7 +180,25 @@
     <p class="setup-similar-label">Петр Петров</p>
   </div>
 </template>
-
+<script>
+  "use strict";
+    var fireballSize = 22;
+    var wizardSpeed = 3;
+    var wizardWidth = 70;
+     var getFireballSpeed = function (left) {
+    return left ? 5 : 2;
+    };
+     var getWizardHeight = function () {
+    return 1.337 * wizardWidth;
+   };
+    var getWizardX = function (width) {
+    return (width - wizardWidth) / 2;
+  };
+    var getWizardY = function (height) {
+    return height/3;
+  }
+</script>
+<script src="js/stat.js"></script>
 <script src="js/game.js"></script>
 
 </body>
