@@ -1,4 +1,4 @@
-'use strict'
+'use strict';
 // var CLOUD_WIDTH = 40;
 // var CLOUD_HEIGHT = 150;
 var CLOUD_X = 100;
